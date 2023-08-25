@@ -65,11 +65,8 @@ li span:nth-child(1) {
     font-weight: bold;
 }
 
-li span:nth-child(2) {
-    font-style: italic;
-}
 
-div input,
+div input, textarea,
 button {
     margin-top: 1rem;
     padding: 0.4rem 0.8rem;
