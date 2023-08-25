@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Chat App</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <header>
+                <h1>Chat <span>App</span></h1>
+            </header>
+            <main>
+                <section class="A">
+                    <div class="messageOneCont"></div>
+                    <div class="username1">
+                        <input
+                            type="text"
+                            id="userA"
+                            required
+                            placeholder="Enter your name"
+                        />
+                    </div>
+                    <div class="message1">
+                        <input
+                            type="text"
+                            id="messageOne"
+                            required
+                            placeholder="Enter your message"
+                        />
+                    </div>
+                    <button class="btn-1">Send</button>
+                </section>
+                <section class="B">
+                    <div class="messageTwoCont"></div>
+                    <div class="username2">
+                        <input
+                            type="text"
+                            id="userB"
+                            required
+                            placeholder="Enter your name"
+                        />
+                    </div>
+                    <div class="message2">
+                        <input
+                            type="text"
+                            id="messageTwo"
+                            required
+                            placeholder="Enter your message"
+                        />
+                    </div>
+                    <button class="btn-2">Send</button>
+                </section>
+            </main>
+        </div>
+        <script src="./src/app.js"></script>
+    </body>
+</html>
